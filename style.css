@@ -8,7 +8,7 @@ body{
 }
 
 header{
-    background-color: #7b50df;
+    background-color: #2980b9;
     color: white;
     padding: 30px 20px;
     text-align: center;
@@ -22,7 +22,7 @@ header h1 {
 header p{
     margin: 8px 0 0;
     font-size: 1em;
-    color:#a3b2e6;
+    color:#c1cbee;
 }
 
 main{
@@ -32,7 +32,7 @@ main{
 }
 
 section{
-    background-color: rgb(153, 125, 230);
+    background-color: rgb(204, 220, 240);
     border-radius: 8px;
     padding: 20px;
     margin-bottom: 20px;
@@ -48,4 +48,35 @@ ul li{
     margin: 6px 0;
     padding: 10px;
     border-radius: 4px;
+}
+
+a{
+    text-decoration: #2980b9;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#btn-saludar{
+    margin_top: 12px;
+    padding: 10px 24px;
+    background-color: #2980b9;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+    border: none;
+}
+
+#btn-saludar:hover {
+    background-color: #7b82e2;
+}
+
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color: #2980b9;
+    font-size: 0.8em;
+    color: aliceblue;
 }
